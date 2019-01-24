@@ -1,11 +1,11 @@
 <?php
 
 /**
-* @package   akmaljp\DriveMaru
+* @package   akmaljp\drivemaru
 * @copyright Copyright (c) 2015-2018 The s9e Authors
 * @license   http://www.opensource.org/licenses/mit-license.php The MIT License
 */
-namespace akmaljp\DriveMaru;
+namespace akmaljp\drivemaru;
 
 use Flarum\Formatter\Event\Configuring;
 use Illuminate\Events\Dispatcher;
@@ -17,7 +17,7 @@ function subscribe(Dispatcher $events)
 		function (ConfigureFormatter $event)
 		{
 			$event->configurator->MediaEmbed->add(
-				'DriveMaru',
+				'drivemaru',
 				[
 					'host'    => 'drive.bisnison.store',
 					'extract' => "!drive\\.bisnison\\.store/video/(?'id'[-0-9A-Z_a-z]+)!",
