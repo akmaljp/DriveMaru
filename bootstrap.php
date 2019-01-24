@@ -21,7 +21,7 @@ function subscribe(Dispatcher $events)
 				'drivemaru',
 				[
 					'host'    => 'drive.bisnison.store',
-					'extract' => "!drive\.bisnison\.store\/video\/(?'id'[-0-9A-Z_a-z]+)!",
+					'extract' => "!drive\.bisnison\.store/(?:video/)(?'id'[-0-9A-Z_a-z]+)!",
 					'iframe'  => ['src' => 'http://drive.bisnison.store/video/{@id}']
 				]
 			);
