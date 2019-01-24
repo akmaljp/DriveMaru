@@ -14,8 +14,8 @@ use s9e\TextFormatter\Configurator\Bundles\MediaPack;
 function subscribe(Dispatcher $events)
 {
 	$events->listen(
-		ConfigureFormatter::class,
-		function (ConfigureFormatter $event)
+		Configuring::class,
+		function (Configuring $event)
 		{
 			$event->configurator->MediaEmbed->add(
 				'drivemaru',
