@@ -9,9 +9,9 @@
 	},
 	"license": "MIT",
 	"require": {
-		"akmaljp/bistore" : "dev-master"
+		"php": ">=7.0.0",
+		"flarum/core": ">=0.1.0-beta.8"
 	},
-	"minimum-stability": "dev"
 	"support": {
 		"source": "https://github.com/akmaljp/bistore",
 		"issues": "https://github.com/akmaljp/bistore/issues"
