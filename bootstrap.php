@@ -9,6 +9,7 @@ namespace akmaljp\drivemaru;
 
 use Flarum\Formatter\Event\Configuring;
 use Illuminate\Events\Dispatcher;
+use s9e\TextFormatter\Configurator\Bundles\MediaPack;
 
 function subscribe(Dispatcher $events)
 {
