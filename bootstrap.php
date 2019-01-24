@@ -17,7 +17,7 @@ function subscribe(Dispatcher $events)
 		function (ConfigureFormatter $event)
 		{
 			$event->configurator->MediaEmbed->add(
-				'Bistore',
+				'DriveMaru',
 				[
 					'host'    => 'drive.bisnison.store',
 					'extract' => "!drive\\.bisnison\\.store/video/(?'id'[-0-9A-Z_a-z]+)!",
