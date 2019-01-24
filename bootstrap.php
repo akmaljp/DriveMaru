@@ -20,9 +20,9 @@ function subscribe(Dispatcher $events)
 			$event->configurator->MediaEmbed->add(
 				'drivemaru',
 				[
-					'host'    => 'drive.bisnison.store',
-					'extract' => "!drive\\.bisnison\\.store/video\/(?'id'[-0-9A-Z_a-z]+)!",
-					'iframe'  => ['src' => 'http://drive.bisnison.store/video/{@id}/']
+					'host'    => 'drivemu.com',
+					'extract' => "!drivemu\\.com/video/(?'id'[-0-9A-Z_a-z]+)!",
+					'iframe'  => ['src' => 'https://drivemu.com/video/{@id}/']
 				]
 			);
 		}
