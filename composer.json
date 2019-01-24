@@ -1,6 +1,6 @@
 {
-	"name": "akmaljp/bistore",
-	"description": "Embed bistore content in your Flarum.",
+	"name": "akmaljp/DriveMaru",
+	"description": "Embed DriveMaru content in your Flarum.",
 	"type": "flarum-extension",
 	"keywords": ["flarum","embed","facebook","media","twitter","twitch","youtube"],
 	"version": "1.0.0",
@@ -13,12 +13,12 @@
 		"flarum/core": ">=0.1.0-beta.8"
 	},
 	"support": {
-		"source": "https://github.com/akmaljp/bistore",
-		"issues": "https://github.com/akmaljp/bistore/issues"
+		"source": "https://github.com/akmaljp/DriveMaru",
+		"issues": "https://github.com/akmaljp/DriveMaru/issues"
 	},
 	"extra": {
 		"flarum-extension": {
-			"title": "bistore",
+			"title": "DriveMaru",
 			"icon": {
 				"name": "youtube-play",
 				"backgroundColor": "#cc181e",
